@@ -20,45 +20,45 @@ A simple and interactive grocery list application built with **React**. Users ca
 ---
 
 ## 📂 Folder Structure
-<pre>
-  Grocery-List/
-├── public/ # Static assets
-├── src/ # React components
-│ ├── App.js # Main app component
-│ ├── Header.js
-│ ├── Footer.js
-│ ├── Content.js
-│ ├── AddItem.js
-│ ├── SearchItem.js
-│ ├── LineItem.js
-│ └── ItemList.js
-├── .gitignore
-├── package.json
-└── README.md
-</pre>
+
+    Grocery-List/
+    ├── public/ # Static assets
+    ├── src/ # React components
+    │ ├── App.js # Main app component
+    │ ├── Header.js
+    │ ├── Footer.js
+    │ ├── Content.js
+    │ ├── AddItem.js
+    │ ├── SearchItem.js
+    │ ├── LineItem.js
+    │ └── ItemList.js
+    ├── .gitignore
+    ├── package.json
+    └── README.md
+
 
 ---
 
 ## 🚀 How to Run Locally
 
 1. **Clone the repository**
-   <pre>
-   git clone https://github.com/rnccsstudent/Grocery-List.git
-   cd Grocery-List
-   </pre>
+   
+       git clone https://github.com/rnccsstudent/Grocery-List.git
+       cd Grocery-List
+   
 2. Install dependencies
 
-   <pre>npm install</pre>
+       npm install
    
 3.Start development server
 
-   <pre>npm start</pre>
+       npm start
    
-4.Open http://localhost:3000 in your browser.
+4.Open *http://localhost:3000* in your browser.
 
 ---
 
-###🏗️ Build for Production
+🏗️ Build for Production
 
     npm run build
   This will create an optimized build/ folder ready for deployment (e.g., Netlify, GitHub Pages, etc.).
@@ -82,5 +82,3 @@ A simple and interactive grocery list application built with **React**. Users ca
      If you find a bug or want to suggest a feature, feel free to open an issue or a pull request.
 
 ---
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

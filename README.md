@@ -52,7 +52,7 @@ A simple and interactive grocery list application built with **React**. Users ca
    
 3. Start development server
 
-       npm start
+       npm run start
    If you're using WSL or have file watching issues, use:
 
        CHOKIDAR_USEPOLLING=true && npm start

@@ -1,0 +1,191 @@
+html{
+  font-size: 22px;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1{
+  padding: 0.5rem 1rem;
+}
+.App{
+  padding-top: 80px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  height: calc(100vh - 2px);
+  max-width: 500px;
+  /* border: 1px solid mediumblue; */
+  margin: auto;
+}
+/* ✅ Header always at the top */
+header {
+  position: fixed;
+  line-height: 0%;           
+  top: 0;
+  left: 0;
+  width: 100%;
+  /* padding: 1rem; */
+  background-color: #1e40af; /* Deep blue */
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* font-size: 1.5rem; */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+main{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+}
+/* 🟫 Footer Styling */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: mediumblue;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  /* padding: 0.75rem; */
+  font-size: 0.9rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul{
+  width: 100%;
+  list-style: none;
+  padding: 0 0.25rem 0.25rem;
+}
+
+ul li::before{
+  content: "\2000";
+}
+
+.item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem 0 0.5rem 0.5rem;
+  margin: 0.25rem 0;
+  background-color: #eee;
+}
+
+.item:first-child{
+  margin: 0%;
+}
+
+.item input[type="checkbox"]{
+  text-align: center;
+  width: 2.5rem;
+  width: 48px;
+  min-width: 48px;
+  height: 2.5rem;
+  height: 48px;
+  min-height: 48px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+.item input[type="checkbox"]:focus +label{
+  text-decoration: underline;
+}
+
+.item>label{
+  font-size: 0.75rem;
+  flex-grow: 1;
+}
+
+.item svg{
+  width: 48px;
+  min-width: 48px;
+  height: 36px;
+  font-size: 1rem;
+  color: steelblue;
+  cursor: pointer;
+}
+
+.item svg:focus,
+.item svg:hover{
+  color: red;
+  outline: none;
+}
+
+.addForm{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.5rem 0 0;
+  padding: 0 0.5rem 0.25rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.addForm label{
+  position: absolute;
+  left: -99999px;
+}
+
+.addForm input[type='text']{
+  flex-grow: 1;
+  max-width: calc(100% - 50px);
+  /* min-height: 48px; */
+  font-size: 1rem;
+  padding: 0.25rem;
+  /* border-radius: 0.25rem; */
+  margin-right: 0.25rem;
+  outline: none;
+}
+button{
+  height: 48px;
+  min-width: 48px;
+  border-radius: 0.25rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  background-color: aliceblue;
+  color: mediumblue;
+  cursor: pointer;
+}
+
+button:focus,
+button:hover{
+  color: white;
+  background-color: limegreen;
+  outline: none;
+}
+
+.searchForm{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0.25rem 0 0;
+  padding: 0 0.5rem 0.25rem;
+  border-bottom: 1px solid #eee;
+}
+
+.searchForm label{
+  position: absolute;
+  left: -99999px;
+}
+
+.searchForm input[type='text']{
+  flex-grow: 1;
+  
+}

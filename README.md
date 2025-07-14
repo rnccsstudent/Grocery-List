@@ -63,7 +63,7 @@ A simple and interactive grocery list application built with **React**. Users ca
 
 ### 🏗️ Build for Production
 
-   installed the CLI first:
+   installed the CLI first Once:
 
     npm install -g netlify-cli
     

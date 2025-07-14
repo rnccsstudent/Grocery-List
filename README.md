@@ -73,8 +73,8 @@ A simple and interactive grocery list application built with **React**. Users ca
 
 ### 🙋‍♂️ Author
 
--Pranab Mahata
--[GitHub](https://github.com/rnccsstudent)
+- Pranab Mahata
+- [GitHub](https://github.com/rnccsstudent)
 
 ---
 

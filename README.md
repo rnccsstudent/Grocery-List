@@ -53,6 +53,9 @@ A simple and interactive grocery list application built with **React**. Users ca
 3. Start development server
 
        npm start
+   If you're using WSL or have file watching issues, use:
+
+       CHOKIDAR_USEPOLLING=true && npm start
    
 4. Open *http://localhost:3000* in your browser.
 
@@ -60,9 +63,17 @@ A simple and interactive grocery list application built with **React**. Users ca
 
 ### 🏗️ Build for Production
 
-       npm run build
-  This will create an optimized build/ folder ready for deployment (e.g., Netlify, GitHub Pages, etc.).
+   installed the CLI first:
 
+    npm install -g netlify-cli
+    
+  Then create an optimized build/ folder ready for deployment (e.g., Netlify, GitHub Pages, etc.).
+  
+    npm run build
+
+  🌐 Deploy to Netlify
+
+    netlify deploy --dir=build --prod
 ---
 
 ### 📜 License
@@ -77,6 +88,15 @@ A simple and interactive grocery list application built with **React**. Users ca
 - [GitHub](https://github.com/rnccsstudent)
 
 ---
+
+### (Optional) 🛠️ Project Setup (Using create-react-app)
+
+To create a similar app from scratch, you can use:
+
+    npx create-react-app grocery-list
+    cd grocery-list
+
+Then start adding your components in the src folder.
 
 ### 💬 Feedback
 

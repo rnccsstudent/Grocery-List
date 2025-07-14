@@ -50,35 +50,35 @@ A simple and interactive grocery list application built with **React**. Users ca
 
        npm install
    
-3.Start development server
+3. Start development server
 
        npm start
    
-4.Open *http://localhost:3000* in your browser.
+4. Open *http://localhost:3000* in your browser.
 
 ---
 
-🏗️ Build for Production
+### 🏗️ Build for Production
 
-    npm run build
+       npm run build
   This will create an optimized build/ folder ready for deployment (e.g., Netlify, GitHub Pages, etc.).
 
 ---
 
-###📜 License
+### 📜 License
 
     This project is open source and available under the MIT License.
 
 ---
 
-###🙋‍♂️ Author
-      Pranab Mahata
-      [GitHub](https://github.com/rnccsstudent)
+### 🙋‍♂️ Author
+       Pranab Mahata
+       [GitHub](https://github.com/rnccsstudent)
 
 ---
 
-##💬 Feedback
+### 💬 Feedback
 
-     If you find a bug or want to suggest a feature, feel free to open an issue or a pull request.
+      If you find a bug or want to suggest a feature, feel free to open an issue or a pull request.
 
 ---
